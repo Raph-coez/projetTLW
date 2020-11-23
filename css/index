@@ -1,0 +1,52 @@
+body {
+    background-color: cadetblue;
+}
+
+
+a.bouton {
+    background-color: #333;
+    color : white;
+    text-align: center;
+    padding: 1% 7%;
+    text-decoration: none;
+    border-radius: 5px;
+    margin : 3%;
+    
+}
+a.bouton:hover {
+    background-color:blue;
+}
+h1 {
+    padding : 8px 800px;
+    font-variant: small-caps;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif    ;
+    font-size: 50px;
+}
+h2 {
+    font-size: 18px;
+    text-align: center;
+    font-style:italic;
+    text-emphasis-color: black;
+}
+
+img.vignette {
+    border-radius : 80%;
+    width : 30%;
+    height : 60%;
+    margin-left:13.3% ;
+
+}
+img.vignette:hover {
+    opacity:48%
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    "Kyoto Madrid"
+    "Paris LA"
+    "Sidney Islande";
+    }
